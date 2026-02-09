@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FdjUnited.Api.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e74eb3056c318941c6f990c44f136daf4106c522")]
 [assembly: System.Reflection.AssemblyProductAttribute("FdjUnited.Api.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FdjUnited.Api.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

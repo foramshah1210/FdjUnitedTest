@@ -48,4 +48,13 @@
     <PackageReference Include="Zip.CustomerAcquisition.Domain" Version="1.0.0.157" />
 </ItemGroup>
 
+<ItemGroup>
+  <Folder Include="Application\" />
+</ItemGroup>
+
+<ItemGroup>
+  <ProjectReference Include="..\FdjUnited.Api.Contracts\FdjUnited.Api.Contracts.csproj" />
+  <ProjectReference Include="..\FdjUnited.Common\FdjUnited.Common.csproj" />
+</ItemGroup>
+
 </Project>

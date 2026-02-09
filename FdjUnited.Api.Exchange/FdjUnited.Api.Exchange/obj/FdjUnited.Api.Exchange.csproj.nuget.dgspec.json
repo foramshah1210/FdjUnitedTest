@@ -4,6 +4,79 @@
     "/Users/foramshah/projetcs/FdjUnited/FdjUnited.Api.Exchange/FdjUnited.Api.Exchange/FdjUnited.Api.Exchange.csproj": {}
   },
   "projects": {
+    "/Users/foramshah/projetcs/FdjUnited/FdjUnited.Api.Exchange/FdjUnited.Api.Contracts/FdjUnited.Api.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/foramshah/projetcs/FdjUnited/FdjUnited.Api.Exchange/FdjUnited.Api.Contracts/FdjUnited.Api.Contracts.csproj",
+        "projectName": "FdjUnited.Api.Contracts",
+        "projectPath": "/Users/foramshah/projetcs/FdjUnited/FdjUnited.Api.Exchange/FdjUnited.Api.Contracts/FdjUnited.Api.Contracts.csproj",
+        "packagesPath": "/Users/foramshah/.nuget/packages/",
+        "outputPath": "/Users/foramshah/projetcs/FdjUnited/FdjUnited.Api.Exchange/FdjUnited.Api.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/foramshah/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://gitlab.com/api/v4/projects/65804137/packages/nuget/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/foramshah/projetcs/FdjUnited/FdjUnited.Api.Exchange/FdjUnited.Common/FdjUnited.Common.csproj": {
+                "projectPath": "/Users/foramshah/projetcs/FdjUnited/FdjUnited.Api.Exchange/FdjUnited.Common/FdjUnited.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/foramshah/projetcs/FdjUnited/FdjUnited.Api.Exchange/FdjUnited.Api.Exchange/FdjUnited.Api.Exchange.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -26,7 +99,14 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/foramshah/projetcs/FdjUnited/FdjUnited.Api.Exchange/FdjUnited.Api.Contracts/FdjUnited.Api.Contracts.csproj": {
+                "projectPath": "/Users/foramshah/projetcs/FdjUnited/FdjUnited.Api.Exchange/FdjUnited.Api.Contracts/FdjUnited.Api.Contracts.csproj"
+              },
+              "/Users/foramshah/projetcs/FdjUnited/FdjUnited.Api.Exchange/FdjUnited.Common/FdjUnited.Common.csproj": {
+                "projectPath": "/Users/foramshah/projetcs/FdjUnited/FdjUnited.Api.Exchange/FdjUnited.Common/FdjUnited.Common.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -184,6 +264,75 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/foramshah/projetcs/FdjUnited/FdjUnited.Api.Exchange/FdjUnited.Common/FdjUnited.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/foramshah/projetcs/FdjUnited/FdjUnited.Api.Exchange/FdjUnited.Common/FdjUnited.Common.csproj",
+        "projectName": "FdjUnited.Common",
+        "projectPath": "/Users/foramshah/projetcs/FdjUnited/FdjUnited.Api.Exchange/FdjUnited.Common/FdjUnited.Common.csproj",
+        "packagesPath": "/Users/foramshah/.nuget/packages/",
+        "outputPath": "/Users/foramshah/projetcs/FdjUnited/FdjUnited.Api.Exchange/FdjUnited.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/foramshah/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://gitlab.com/api/v4/projects/65804137/packages/nuget/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
