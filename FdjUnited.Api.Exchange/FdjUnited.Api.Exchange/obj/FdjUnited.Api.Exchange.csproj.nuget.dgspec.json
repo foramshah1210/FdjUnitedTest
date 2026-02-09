@@ -127,10 +127,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Amplitude.SDK": {
-              "target": "Package",
-              "version": "[1.0.0.40, )"
-            },
             "EFCore.NamingConventions": {
               "target": "Package",
               "version": "[8.0.3, )"
@@ -222,34 +218,6 @@
             "System.IO.Abstractions": {
               "target": "Package",
               "version": "[7.0.7, )"
-            },
-            "VaultSharp": {
-              "target": "Package",
-              "version": "[0.11.1002, )"
-            },
-            "Zip.Core": {
-              "target": "Package",
-              "version": "[1.0.1.102, )"
-            },
-            "Zip.CustomerAcquisition.Core.Logging": {
-              "target": "Package",
-              "version": "[1.0.1.17, )"
-            },
-            "Zip.CustomerAcquisition.Core.Monitoring": {
-              "target": "Package",
-              "version": "[1.0.1.63, )"
-            },
-            "Zip.CustomerAcquisition.Core.Services.External": {
-              "target": "Package",
-              "version": "[1.0.1.183, )"
-            },
-            "Zip.CustomerAcquisition.Core.Utilities": {
-              "target": "Package",
-              "version": "[1.0.1.26, )"
-            },
-            "Zip.CustomerAcquisition.Domain": {
-              "target": "Package",
-              "version": "[1.0.0.157, )"
             }
           },
           "imports": [

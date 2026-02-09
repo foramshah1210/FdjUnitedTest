@@ -1,3 +1,4 @@
+using System;
 using System.Threading;
 using System.Threading.Tasks;
 using FdjUnited.Api.Contracts.Commands.Exchange;
@@ -47,7 +48,7 @@ namespace FdjUnited.Api.Exchange.Application.CommandHandlers
                 var inputRate = exchangeRates.ConversionRates[request.Payload.InputCurrency];
                 var outputRate = exchangeRates.ConversionRates[request.Payload.OutputCurrency];
                 
-                var convertedAmount = request.Payload.Amount * (outputRate / inputRate);
+                var convertedAmount = Math.Round(request.Payload.Amount * (outputRate / inputRate), 2);
 
                 var response = new GenerateExchangeResponse
                 {

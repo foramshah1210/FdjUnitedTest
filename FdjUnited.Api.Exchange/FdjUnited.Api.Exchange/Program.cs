@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Serilog;
-using Zip.Observability.OpenTelemetry.Extensions;
 
 namespace FdjUnited.Api.Exchange
 {
@@ -34,7 +33,6 @@ namespace FdjUnited.Api.Exchange
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-                .UseOpenTelemetryInstrumentation()
                 .UseSerilog()
                 .ConfigureWebHostDefaults(webBuilder => webBuilder.UseStartup<Startup>())
                 .ConfigureAppConfiguration((context, config) =>

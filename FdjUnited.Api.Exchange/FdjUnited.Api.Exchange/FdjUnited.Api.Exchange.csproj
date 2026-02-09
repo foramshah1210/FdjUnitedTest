@@ -15,7 +15,6 @@
 </PropertyGroup>
 
 <ItemGroup>
-    <PackageReference Include="Amplitude.SDK" Version="1.0.0.40" />
     <PackageReference Include="EFCore.NamingConventions" Version="8.0.3" />
     <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
     <PackageReference Include="MediatR" Version="14.0.0" />
@@ -39,13 +38,6 @@
     <PackageReference Include="Serilog.Sinks.Seq" Version="4.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0-rc3" />
     <PackageReference Include="System.IO.Abstractions" Version="7.0.7" />
-    <PackageReference Include="VaultSharp" Version="0.11.1002" />
-    <PackageReference Include="Zip.Core" Version="1.0.1.102" />
-    <PackageReference Include="Zip.CustomerAcquisition.Core.Logging" Version="1.0.1.17" />
-    <PackageReference Include="Zip.CustomerAcquisition.Core.Monitoring" Version="1.0.1.63" />
-    <PackageReference Include="Zip.CustomerAcquisition.Core.Services.External" Version="1.0.1.183" />
-    <PackageReference Include="Zip.CustomerAcquisition.Core.Utilities" Version="1.0.1.26" />
-    <PackageReference Include="Zip.CustomerAcquisition.Domain" Version="1.0.0.157" />
 </ItemGroup>
 
 <ItemGroup>

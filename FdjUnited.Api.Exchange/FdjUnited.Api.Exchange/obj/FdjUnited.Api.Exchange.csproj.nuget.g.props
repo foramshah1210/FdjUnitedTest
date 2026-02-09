@@ -13,20 +13,12 @@
     <SourceRoot Include="/Users/foramshah/.nuget/packages/" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets/8.0.1/buildTransitive/net6.0/Microsoft.Extensions.Configuration.UserSecrets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets/8.0.1/buildTransitive/net6.0/Microsoft.Extensions.Configuration.UserSecrets.props')" />
-    <Import Project="$(NuGetPackageRoot)refit/8.0.0/buildTransitive/netstandard2.0/refit.props" Condition="Exists('$(NuGetPackageRoot)refit/8.0.0/buildTransitive/netstandard2.0/refit.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.apidescription.server/0.3.0-preview7.19365.7/build/Microsoft.Extensions.ApiDescription.Server.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.apidescription.server/0.3.0-preview7.19365.7/build/Microsoft.Extensions.ApiDescription.Server.props')" />
+    <Import Project="$(NuGetPackageRoot)refit/8.0.0/buildTransitive/netstandard2.0/refit.props" Condition="Exists('$(NuGetPackageRoot)refit/8.0.0/buildTransitive/netstandard2.0/refit.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore/8.0.1/buildTransitive/net8.0/Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore/8.0.1/buildTransitive/net8.0/Microsoft.EntityFrameworkCore.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets/8.0.1/buildTransitive/net6.0/Microsoft.Extensions.Configuration.UserSecrets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets/8.0.1/buildTransitive/net6.0/Microsoft.Extensions.Configuration.UserSecrets.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">/Users/foramshah/.nuget/packages/awssdk.core/3.7.303.11</PkgAWSSDK_Core>
-    <PkgAWSSDK_SQS Condition=" '$(PkgAWSSDK_SQS)' == '' ">/Users/foramshah/.nuget/packages/awssdk.sqs/3.7.300.71</PkgAWSSDK_SQS>
-    <PkgAWSSDK_SimpleNotificationService Condition=" '$(PkgAWSSDK_SimpleNotificationService)' == '' ">/Users/foramshah/.nuget/packages/awssdk.simplenotificationservice/3.7.301.19</PkgAWSSDK_SimpleNotificationService>
-    <PkgAspectInjector Condition=" '$(PkgAspectInjector)' == '' ">/Users/foramshah/.nuget/packages/aspectinjector/2.8.1</PkgAspectInjector>
-    <PkgAWSSDK_SimpleSystemsManagement Condition=" '$(PkgAWSSDK_SimpleSystemsManagement)' == '' ">/Users/foramshah/.nuget/packages/awssdk.simplesystemsmanagement/3.7.303.20</PkgAWSSDK_SimpleSystemsManagement>
-    <PkgAWSSDK_SecurityToken Condition=" '$(PkgAWSSDK_SecurityToken)' == '' ">/Users/foramshah/.nuget/packages/awssdk.securitytoken/3.7.300.72</PkgAWSSDK_SecurityToken>
-    <PkgAWSSDK_S3 Condition=" '$(PkgAWSSDK_S3)' == '' ">/Users/foramshah/.nuget/packages/awssdk.s3/3.7.307.12</PkgAWSSDK_S3>
-    <PkgNewRelic_Agent_Api Condition=" '$(PkgNewRelic_Agent_Api)' == '' ">/Users/foramshah/.nuget/packages/newrelic.agent.api/8.20.262</PkgNewRelic_Agent_Api>
     <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">/Users/foramshah/.nuget/packages/microsoft.extensions.apidescription.server/0.3.0-preview7.19365.7</PkgMicrosoft_Extensions_ApiDescription_Server>
   </PropertyGroup>
 </Project>

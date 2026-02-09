@@ -4,6 +4,7 @@ using FdjUnited.Api.Contracts.Commands.Exchange;
 using FdjUnited.Api.Contracts.DTO.Exchange;
 using FdjUnited.Common.Results;
 using MediatR;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -15,7 +16,7 @@ namespace FdjUnited.Api.Exchange.Controllers
     {
         private readonly IMediator _mediator;
         private readonly ILogger<ExchangeController> _logger;
-
+        
         public ExchangeController(IMediator mediator, ILogger<ExchangeController> logger)
         {
             _mediator = mediator;
@@ -23,6 +24,10 @@ namespace FdjUnited.Api.Exchange.Controllers
         }
 
         [HttpPost]
+        [ProducesResponseType(typeof(FdjUnitedActionResult<GenerateExchangeResponse>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(FdjUnitedActionResult), StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(FdjUnitedActionResult), StatusCodes.Status500InternalServerError)]
+        [ProducesResponseType(typeof(FdjUnitedActionResult), StatusCodes.Status400BadRequest)]
         public async Task<FdjUnitedActionResult<GenerateExchangeResponse>> GenerateExchange([FromBody] GenerateExchangeRequest request)
         {
             //_logger.LogInformation($"{FraudConstants.ClassName}::{FraudConstants.MethodName} Start {nameof(CheckBlacklistAsync)} endpoint.",
