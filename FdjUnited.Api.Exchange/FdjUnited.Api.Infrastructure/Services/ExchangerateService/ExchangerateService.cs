@@ -9,7 +9,7 @@ namespace FdjUnited.Api.Infrastructure.Services
     public class ExchangerateService : IExchangerateService
     {
         private readonly IHttpClientFactory _clientFactory;
-        private const string ExchangerateServiceApiEndpoint = "https://v6.exchangerate-api.com/v6/744d0d91f44398b4795cd7da/latest/USD";
+        private const string ExchangerateServiceApiEndpoint = "https://v6.exchangerate-api.com/v6/744d0d91f44398b4795cd7da/latest/USD";//ApiKey will be fetched from AppSettings by configuring 
       
         public ExchangerateService(IHttpClientFactory clientFactory)
         {

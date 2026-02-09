@@ -43,12 +43,16 @@ namespace FdjUnited.Api.Exchange
                     options.SerializerSettings.NullValueHandling = NullValueHandling.Ignore;
                     options.SerializerSettings.Converters.Add(new StringEnumConverter());
                 });
+            
+            //services.ConfigureSettings(Configuration);
 
             services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
             services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo { Title = "FdjUnited Exchange API", Version = "v1" }); });
 
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Program).Assembly));
+            
+            
 
             // Register HttpClient
             services.AddHttpClient();
@@ -56,6 +60,12 @@ namespace FdjUnited.Api.Exchange
             // Register ExchangerateService
             services.AddScoped<IExchangerateService, ExchangerateService>();
         }
+
+        //Tcode to configure ExchangerateServiceSettings
+        /*public static void ConfigureSettings(IServiceCollection services, IConfiguration configuration)
+        {
+            services.Configure<ExchangerateServiceSettings>(configuration.GetSection("ExchangerateServiceSettings"));
+        }*/
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

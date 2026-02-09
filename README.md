@@ -91,7 +91,9 @@ Converts currency amounts using live exchange rates.
 ## Features Not Inlduded / Improvements / Enhancements / Production Ready
 - Configure and bind the ExchangeService API in startup and inject it into the service
 - Complete unit test coverage, including handlers, services, and controllers
+- Add Refit instead of HttpClient
 - Implement a retry mechanism using Polly (or similar) with exponential backoff
+- ExchangerateServiceSettings configuration 
 - Improve error handling within the service layer
 - Add pipeline configuration to the project
 - Implement secure key management using a secrets manager (e.g., Vault)
