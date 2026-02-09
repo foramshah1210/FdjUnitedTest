@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/FdjUnited.Api.Api.props" />
+</Project>

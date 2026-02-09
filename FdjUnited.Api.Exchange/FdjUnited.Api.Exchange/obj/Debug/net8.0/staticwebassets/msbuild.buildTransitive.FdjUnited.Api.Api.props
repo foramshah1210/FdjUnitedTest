@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/FdjUnited.Api.Api.props" />
+</Project>

@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FdjUnited.Api.Exchange", "FdjUnited.Api.Exchange\FdjUnited.Api.Exchange.csproj", "{29CC37D3-CFD3-4A2A-806C-DB474E21FBCD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{8018ED67-2ED3-4F2A-8FEF-EB2963CA3BE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29CC37D3-CFD3-4A2A-806C-DB474E21FBCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29CC37D3-CFD3-4A2A-806C-DB474E21FBCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29CC37D3-CFD3-4A2A-806C-DB474E21FBCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29CC37D3-CFD3-4A2A-806C-DB474E21FBCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29CC37D3-CFD3-4A2A-806C-DB474E21FBCD} = {8018ED67-2ED3-4F2A-8FEF-EB2963CA3BE0}
+	EndGlobalSection
+EndGlobal
