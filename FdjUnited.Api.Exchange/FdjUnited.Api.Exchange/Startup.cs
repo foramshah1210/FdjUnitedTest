@@ -3,6 +3,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Reflection;
 using FdjUnited.Api.Exchange.Extensions;
+using FdjUnited.Api.Infrastructure.Services;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Cors.Infrastructure;
@@ -50,6 +51,12 @@ namespace FdjUnited.Api.Exchange
             services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo { Title = "FdjUnited Exchange API", Version = "v1" }); });
 
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Program).Assembly));
+
+            // Register HttpClient
+            services.AddHttpClient();
+
+            // Register ExchangerateService
+            services.AddScoped<IExchangerateService, ExchangerateService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -11,6 +11,7 @@
           "Amplitude.SDK": "1.0.0.40",
           "EFCore.NamingConventions": "8.0.3",
           "FdjUnited.Api.Contracts": "1.0.0",
+          "FdjUnited.Api.Infrastructure": "1.0.0",
           "FdjUnited.Common": "1.0.0",
           "FluentValidation.AspNetCore": "11.3.0",
           "MediatR": "14.0.0",
@@ -3098,6 +3099,19 @@
           }
         }
       },
+      "FdjUnited.Api.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Http": "8.0.1",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.0",
+          "Microsoft.Extensions.Options": "8.0.2"
+        },
+        "runtime": {
+          "FdjUnited.Api.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "FdjUnited.Common/1.0.0": {
         "dependencies": {
           "MediatR": "14.0.0",
@@ -5093,6 +5107,11 @@
       "hashPath": "zip.observability.opentelemetry.1.0.0.85.nupkg.sha512"
     },
     "FdjUnited.Api.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FdjUnited.Api.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

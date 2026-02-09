@@ -204,3 +204,5 @@
 /Users/foramshah/projetcs/FdjUnited/FdjUnited.Api.Exchange/FdjUnited.Api.Exchange/bin/Debug/net8.0/FdjUnited.Common.dll
 /Users/foramshah/projetcs/FdjUnited/FdjUnited.Api.Exchange/FdjUnited.Api.Exchange/bin/Debug/net8.0/FdjUnited.Api.Contracts.pdb
 /Users/foramshah/projetcs/FdjUnited/FdjUnited.Api.Exchange/FdjUnited.Api.Exchange/bin/Debug/net8.0/FdjUnited.Common.pdb
+/Users/foramshah/projetcs/FdjUnited/FdjUnited.Api.Exchange/FdjUnited.Api.Exchange/bin/Debug/net8.0/FdjUnited.Api.Infrastructure.dll
+/Users/foramshah/projetcs/FdjUnited/FdjUnited.Api.Exchange/FdjUnited.Api.Exchange/bin/Debug/net8.0/FdjUnited.Api.Infrastructure.pdb

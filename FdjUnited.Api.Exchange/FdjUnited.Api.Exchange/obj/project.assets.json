@@ -5157,6 +5157,21 @@
           "bin/placeholder/FdjUnited.Api.Contracts.dll": {}
         }
       },
+      "FdjUnited.Api.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Options": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FdjUnited.Api.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FdjUnited.Api.Infrastructure.dll": {}
+        }
+      },
       "FdjUnited.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -13385,6 +13400,11 @@
       "path": "../FdjUnited.Api.Contracts/FdjUnited.Api.Contracts.csproj",
       "msbuildProject": "../FdjUnited.Api.Contracts/FdjUnited.Api.Contracts.csproj"
     },
+    "FdjUnited.Api.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../FdjUnited.Api.Infrastructure/FdjUnited.Api.Infrastructure.csproj",
+      "msbuildProject": "../FdjUnited.Api.Infrastructure/FdjUnited.Api.Infrastructure.csproj"
+    },
     "FdjUnited.Common/1.0.0": {
       "type": "project",
       "path": "../FdjUnited.Common/FdjUnited.Common.csproj",
@@ -13396,6 +13416,7 @@
       "Amplitude.SDK >= 1.0.0.40",
       "EFCore.NamingConventions >= 8.0.3",
       "FdjUnited.Api.Contracts >= 1.0.0",
+      "FdjUnited.Api.Infrastructure >= 1.0.0",
       "FdjUnited.Common >= 1.0.0",
       "FluentValidation.AspNetCore >= 11.3.0",
       "MediatR >= 14.0.0",
@@ -13456,6 +13477,9 @@
           "projectReferences": {
             "/Users/foramshah/projetcs/FdjUnited/FdjUnited.Api.Exchange/FdjUnited.Api.Contracts/FdjUnited.Api.Contracts.csproj": {
               "projectPath": "/Users/foramshah/projetcs/FdjUnited/FdjUnited.Api.Exchange/FdjUnited.Api.Contracts/FdjUnited.Api.Contracts.csproj"
+            },
+            "/Users/foramshah/projetcs/FdjUnited/FdjUnited.Api.Exchange/FdjUnited.Api.Infrastructure/FdjUnited.Api.Infrastructure.csproj": {
+              "projectPath": "/Users/foramshah/projetcs/FdjUnited/FdjUnited.Api.Exchange/FdjUnited.Api.Infrastructure/FdjUnited.Api.Infrastructure.csproj"
             },
             "/Users/foramshah/projetcs/FdjUnited/FdjUnited.Api.Exchange/FdjUnited.Common/FdjUnited.Common.csproj": {
               "projectPath": "/Users/foramshah/projetcs/FdjUnited/FdjUnited.Api.Exchange/FdjUnited.Common/FdjUnited.Common.csproj"

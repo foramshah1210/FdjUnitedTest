@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FdjUnited.Api.Contracts", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FdjUnited.Common", "FdjUnited.Common\FdjUnited.Common.csproj", "{7FC57AD6-E8CB-4664-A02F-14F54524F1E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FdjUnited.Api.Infrastructure", "FdjUnited.Api.Infrastructure\FdjUnited.Api.Infrastructure.csproj", "{5303AF31-C787-40C9-B33E-5B644BE4C948}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,10 +28,15 @@ Global
 		{7FC57AD6-E8CB-4664-A02F-14F54524F1E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FC57AD6-E8CB-4664-A02F-14F54524F1E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FC57AD6-E8CB-4664-A02F-14F54524F1E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5303AF31-C787-40C9-B33E-5B644BE4C948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5303AF31-C787-40C9-B33E-5B644BE4C948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5303AF31-C787-40C9-B33E-5B644BE4C948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5303AF31-C787-40C9-B33E-5B644BE4C948}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{29CC37D3-CFD3-4A2A-806C-DB474E21FBCD} = {8018ED67-2ED3-4F2A-8FEF-EB2963CA3BE0}
 		{2EE69538-12DB-48AE-AE24-9423EF2EC8BE} = {8018ED67-2ED3-4F2A-8FEF-EB2963CA3BE0}
 		{7FC57AD6-E8CB-4664-A02F-14F54524F1E5} = {8018ED67-2ED3-4F2A-8FEF-EB2963CA3BE0}
+		{5303AF31-C787-40C9-B33E-5B644BE4C948} = {8018ED67-2ED3-4F2A-8FEF-EB2963CA3BE0}
 	EndGlobalSection
 EndGlobal

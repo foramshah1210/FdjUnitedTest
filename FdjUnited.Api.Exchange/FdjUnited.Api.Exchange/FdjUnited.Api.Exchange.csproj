@@ -54,6 +54,7 @@
 
 <ItemGroup>
   <ProjectReference Include="..\FdjUnited.Api.Contracts\FdjUnited.Api.Contracts.csproj" />
+  <ProjectReference Include="..\FdjUnited.Api.Infrastructure\FdjUnited.Api.Infrastructure.csproj" />
   <ProjectReference Include="..\FdjUnited.Common\FdjUnited.Common.csproj" />
 </ItemGroup>
 
